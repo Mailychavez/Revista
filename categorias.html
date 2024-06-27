@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorías</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#CD9CB9">
+  <style>
+     .title {
+            position: relative;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .title:hover {
+            transform: translateY(-5px);
+        }
+
+        .title:active {
+            transform: translateY(0);
+        }
+  </style>
+
+<header id="main-header">
+  <h1>Revista Estrellas Emergentes</h1>
+  <nav>
+      <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="categorias.html">Categorías</a></li>
+          <li><a href="entrevistas.html">Entrevistas</a></li>
+          <li><a href="reseñas.html">Reseñas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+  </nav>
+</header>
+
+      <section class="title" onclick="window.location.href='rock.html'">
+        <h2>Rock</h2>
+        <p>Conoce más sobre los artistas emergentes del Rock.</p>
+        <p>Ver....</p>
+    </section>
+
+    <section class="title" onclick="window.location.href='pop.html'">
+      <h2>Pop</h2>
+      <p>Conoce más sobre los artistas emergentes del Pop.</p>
+      <p>Ver....</p>
+  </section>
+
+  <section class="title" onclick="window.location.href='electronica.html'">
+    <h2>Electrónica</h2>
+    <p>Conoce más sobre los artistas emergentes de la música Electrónica.</p>
+    <p>Ver....</p>
+</section>
+
+<section class="title" onclick="window.location.href='hip-hop.html'">
+  <h2>Hip-Hop</h2>
+  <p>Conoce más sobre los artistas emergentes del Hip-Hop.</p>
+  <p>Ver....</p>
+</section>
+
+      <footer>
+        <p>Derechos de autor &copy; 2024 Estrellas Emergentes</p>
+    </footer>
+    
+</body>
+</html>
